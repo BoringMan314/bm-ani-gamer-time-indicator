@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "[B.M] アニメ瘋 +90秒 マーカー",
+    "description": "拡張機能名（日本語）"
+  },
+  "extDescription": {
+    "message": "動畫瘋（ani.gamer.com.tw）のプレーヤー進捗バーに「現在時刻 + 90秒」の黄色マーカーを表示し、固定キー S とカスタムショートカットで 90 秒早送りできます。",
+    "description": "拡張機能の説明（日本語）"
+  },
+  "cmdSkip90Description": {
+    "message": "90秒早送り",
+    "description": "コマンド説明（日本語）"
+  }
+}

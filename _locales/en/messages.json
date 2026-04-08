@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "[B.M] Bahamut Anime Crazy — +90s marker",
+    "description": "Extension name (English)"
+  },
+  "extDescription": {
+    "message": "Shows a +90s yellow marker on the playback progress bar on Bahamut Anime Crazy (ani.gamer.com.tw), with a fixed S hotkey and a customizable shortcut to skip 90 seconds.",
+    "description": "Extension description (English)"
+  },
+  "cmdSkip90Description": {
+    "message": "Skip forward 90 seconds",
+    "description": "Command description (English)"
+  }
+}

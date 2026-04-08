@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "[B.M] 動畫瘋 +90秒 進度標記",
+    "description": "擴充功能名稱（繁體中文）"
+  },
+  "extDescription": {
+    "message": "在動畫瘋（ani.gamer.com.tw）播放器進度條上顯示「目前時間 + 90 秒」黃色標記，支援固定單鍵 S 與可自訂快捷鍵快轉 90 秒。",
+    "description": "擴充功能簡介（繁體中文）"
+  },
+  "cmdSkip90Description": {
+    "message": "快轉 90 秒",
+    "description": "快捷鍵指令說明（繁體中文）"
+  }
+}

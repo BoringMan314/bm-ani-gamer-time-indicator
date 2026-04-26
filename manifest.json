@@ -4,14 +4,25 @@
   "version": "0.1.0",
   "description": "__MSG_extDescription__",
   "default_locale": "zh_TW",
+  "homepage_url": "https://github.com/BoringMan314/bm-ani-gamer-time-indicator",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "128": "icons/icon.png"
   },
   "background": {
     "service_worker": "background.js"
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ani.gamer.com.tw/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
   "commands": {
     "skip90": {
       "suggested_key": {
@@ -20,13 +31,5 @@
       },
       "description": "__MSG_cmdSkip90Description__"
     }
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://ani.gamer.com.tw/*"],
-      "js": ["content.js"],
-      "run_at": "document_idle",
-      "all_frames": true
-    }
-  ]
+  }
 }

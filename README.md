@@ -53,7 +53,7 @@
 
 ### 從 Chrome 線上應用程式商店（建議）
 
-請在 [Chrome Web Store](https://chromewebstore.google.com/) 搜尋 **「[B.M] 動畫瘋 +90秒 進度標記」**（[商店頁面](https://chromewebstore.google.com/detail/bm-%E5%8B%95%E7%95%AB%E7%98%8B-+90%E7%A7%92-%E9%80%B2%E5%BA%A6%E6%A8%99%E8%A8%98/kbhbclfechhhdeanffaoihjhpfnjcljm?hl=zh-TW)），或從上列直接連結安裝。
+請在 [Chrome Web Store](https://chromewebstore.google.com/) 搜尋 **「[\[B.M\] 動畫瘋 +90秒 進度標記](https://chromewebstore.google.com/detail/bm-%E5%8B%95%E7%95%AB%E7%98%8B-+90%E7%A7%92-%E9%80%B2%E5%BA%A6%E6%A8%99%E8%A8%98/kbhbclfechhhdeanffaoihjhpfnjcljm?hl=zh-TW)」**，或點擊名稱從商店頁面安裝。
 
 ### 從原始碼載入（開發人員模式）
 
@@ -117,27 +117,6 @@
 git add .
 git commit -m "docs: 更新內容說明與商店連結"
 git push origin main
-```
-
-### GitHub Releases 發布說明（範本）
-
-建立 [Releases](https://github.com/BoringMan314/bm-ani-gamer-time-indicator/releases) 時，標題建議與 `manifest.json` 的 `version` 對齊（例如 `V0.1.0`）。內文可採下列結構（格式比照 [bm-sound-effects-switch](https://github.com/BoringMan314/bm-sound-effects-switch/releases)）：
-
-```markdown
-## 首次發布
-
-- 定位：適用於巴哈姆特動畫瘋（`ani.gamer.com.tw`）的瀏覽器擴充功能（Manifest V3），在播放器進度條顯示「目前時間 + 90 秒」黃色標記。
-- 快捷鍵：未於 `chrome://extensions/shortcuts` 自訂擴充快捷鍵時，可使用單鍵 `S`（留言輸入框內不觸發）；並支援命令 `skip90`（可自訂快捷鍵，預設建議 `Ctrl+Shift+S` / Mac `Command+Shift+S`）。
-- 權限：僅在 **`https://ani.gamer.com.tw/*`** 載入內容腳本，不請求其他網站權限。
-
-## 下載
-
-- Chrome Web Store：於商店搜尋「[B.M] 動畫瘋 +90秒 進度標記」或從 README 商店連結安裝。
-- Source：GitHub 會自動提供 Source code（zip / tar.gz）。
-
-## 備註
-
-- 本專案為第三方輔助工具，與動畫瘋／巴哈姆特官方無關；使用請遵守該站服務條款與著作權規範。
 ```
 
 ### 更新至 Chrome 線上應用程式商店

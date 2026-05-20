@@ -3,6 +3,7 @@
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](https://developer.chrome.com/docs/extensions/mv3/)
 [![Site](https://img.shields.io/badge/site-ani.gamer.com.tw-5865F2)](https://ani.gamer.com.tw)
 [![GitHub](https://img.shields.io/badge/GitHub-bm--ani--gamer--time--indicator-181717?logo=github)](https://github.com/BoringMan314/bm-ani-gamer-time-indicator)
+[![GitHub all releases](https://img.shields.io/github/downloads/BoringMan314/bm-ani-gamer-time-indicator/total)](https://github.com/BoringMan314/bm-ani-gamer-time-indicator/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 適用於 [巴哈姆特動畫瘋](https://ani.gamer.com.tw)（`ani.gamer.com.tw`）的瀏覽器擴充功能：在播放器進度條顯示「目前時間 + 90 秒」黃色標記，並提供快轉 90 秒的快捷鍵。

@@ -85,7 +85,7 @@
 | [`manifest.json`](manifest.json) | Manifest V3 設定、命令快捷鍵、多語系鍵值 |
 | [`content.js`](content.js) | 進度條標記與頁面內快捷鍵行為 |
 | [`background.js`](background.js) | `commands` 指令與快捷鍵狀態判斷 |
-| [`_locales/`](_locales/) | 多語系字串（`zh_TW`、`zh_CN`、`ja_JP`、`en_US`） |
+| [`_locales/`](_locales/) | 多語系字串（`zh_TW`、`zh_CN`、`ja`、`en_US`） |
 | [`privacy-policy.html`](privacy-policy.html) | 隱私權政策（上架商店所需之公開網頁） |
 | [`icons/`](icons/) | 工具列與商店用圖示：icon.png |
 | [`screenshot/`](screenshot/) | 商店與說明用截圖 |
@@ -96,7 +96,7 @@
 
 - **版本**：以 [`manifest.json`](manifest.json) 的 `version` 為準。
 - **預設語系**：`zh_TW`（`default_locale`）。
-- **內建語系**：`zh_TW`、`zh_CN`、`ja_JP`、`en_US`（路徑為 `_locales/<code>/messages.json`）。實際顯示依瀏覽器語系與遞減規則。
+- **內建語系**：`zh_TW`、`zh_CN`、`ja`、`en_US`（路徑為 `_locales/<code>/messages.json`）。實際顯示依瀏覽器語系與遞減規則。
 
 ---
 

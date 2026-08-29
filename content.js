@@ -227,5 +227,8 @@
 		);
 	}
 
-	attachToDocument(document);
+	document.documentElement.setAttribute('data-bm-ani-plus90-standalone', '1');
+	if (document.documentElement.getAttribute('data-bm-ani-tool') !== '1') {
+		attachToDocument(document);
+	}
 })();
